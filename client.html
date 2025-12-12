@@ -7,8 +7,7 @@
 </head>
 <body>
 <script>
-  // BURAYI SUNUCUNUN URL'Sİ İLE DEĞİŞTİR
-  const socket = io("");
+  const socket = io("https://ilksc.onrender.com");
 
   socket.on("mesaj", function (gelenMesaj) {
     alert(gelenMesaj);
